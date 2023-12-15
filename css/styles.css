@@ -153,25 +153,25 @@ color: #404BBF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    
+    margin: 0 auto 48px;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin-bottom: 48px;
     text-align: center;
 
 }
 
 .main-section {
-    background: #2E2F42;
+    background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+     url(../images/peopleoffice.jpg);
+     background-repeat: no-repeat;
 }
 
 
-.hero-container {
-    background: #2E2F42;
-    
-    text-align: center
-}
+
 
 .button {
     background: #4D5AE5;
@@ -236,6 +236,7 @@ background:  #404BBF;
 
 .section-img {
     background-color: #F4F4FD;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
    
 }
 
@@ -260,9 +261,7 @@ background:  #404BBF;
  background-color: #ffffff;
  border-radius: 0px 0px 4px 4px;
  background: var(--WHITE, #fff);
- box-shadow: 0px 2px 1px 0px rgba (46, 47, 66, 0.08),
-            0px 1px 1px 0px rgba (46, 47, 66, 0.16),
-            0px 1px 6px 0px rgba (46, 47, 66, 0.08);
+ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
  gap: 32px;
     width: calc((100% - 72px) / 4);
 }
@@ -303,6 +302,10 @@ background:  #404BBF;
     margin-bottom: 0;
 }
 
+.item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
+}
 .portfolio-title {
     color: #2e2f42;
     text-align: center;
@@ -315,6 +318,7 @@ background:  #404BBF;
    
     margin-bottom: 72px;
 }
+
 
 .portfolio-list {
     display: flex;

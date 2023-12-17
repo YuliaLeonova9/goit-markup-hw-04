@@ -191,7 +191,7 @@ color: #404BBF;
 }
 
 .button:hover {
-background:  #404BBF;
+ background:  #404BBF;
 }
 
 .button:focus {
@@ -260,10 +260,10 @@ background:  #404BBF;
  text-align: center;
  background-color: #ffffff;
  border-radius: 0px 0px 4px 4px;
- background: var(--WHITE, #fff);
+ background:  #fff;
  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
  gap: 32px;
-    width: calc((100% - 72px) / 4);
+ width: calc((100% - 72px) / 4);
 }
 
 .card {
@@ -273,8 +273,6 @@ background:  #404BBF;
 
 .title-job {
     color: #2E2F42;
-    
-    
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -289,7 +287,7 @@ background:  #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-     margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-job {
@@ -297,8 +295,7 @@ background:  #404BBF;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-   
-   text-align: center;
+    text-align: center;
     margin-bottom: 0;
 }
 
@@ -315,7 +312,6 @@ background:  #404BBF;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-   
     margin-bottom: 72px;
 }
 .socials-items {
@@ -328,14 +324,14 @@ background:  #404BBF;
     display: flex;
     gap: 24px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     margin-top: 8px;
 }
 
 .socials-link {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -350,6 +346,7 @@ background:  #404BBF;
 
 .socials-icon {
     fill: currentColor;
+    
 }
 .portfolio-list {
     display: flex;
@@ -378,9 +375,23 @@ background:  #404BBF;
 
 .job-container {
     padding: 32px 0 ;
-
+top: 0;
+left: 0;
 }
 
+.bestselers {
+    position: relative;
+    
+}
+
+.overley {
+    position: absolute;
+    color: black; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 /* footer */
 .info {
     color: #F4F4FD;
@@ -389,6 +400,19 @@ background:  #404BBF;
     letter-spacing: 0.02em;
     width: 264px;
 }
+
+.contact-title {
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;        
+    letter-spacing: 0.02em;
+    display: flex;
+    margin-bottom: 16px;
+   ;
+    
+}
+
 
 .footer-logo {
     
@@ -414,6 +438,7 @@ background:  #404BBF;
 .footer {
     background:  #2E2F42;
     padding: 100px 0;
+    display: flex;
 }
 
 .visually-hidden {

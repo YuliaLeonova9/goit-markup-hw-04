@@ -266,11 +266,11 @@ color: #404BBF;
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    fill:  #f4f4fd;
 }
 
 .wrapper {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -365,10 +365,11 @@ color: #404BBF;
 }
 .socials {
     display: flex;
-    gap: 24px;
+    
     justify-content: center;
     align-items: center;
     margin-top: 8px;
+    gap: 16px;
 }
 
 .socials-link {
@@ -387,11 +388,11 @@ color: #404BBF;
 }
 
 .socials-icons{
- fill: #f4f4f4;
+ fill:#f4f4fd;
  }  
  
  .socials-icon {
-     fill: #f4f4f4;
+     fill: #f4f4fd;
  }
  
  .socials-links {
@@ -520,8 +521,11 @@ color: #404BBF;
 
 .container-footer {
     display: flex;
+    align-items: baseline;
 }
-
+ .psocial{
+  margin-bottom: 16px;
+ } 
 
 .sm-container {
     

@@ -23,10 +23,8 @@ h1,h2,h3,h4,h5,h6,p {
  }
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 15px;
+    margin: 0 auto;
     
 }
 /* header */
@@ -402,7 +400,7 @@ color: #404BBF;
 
 .bestselers {
     position: relative;
-    
+    overflow: hidden;
 }
 
 .overley {
@@ -420,6 +418,12 @@ color: #404BBF;
     width: 100%;
     height: 100%;
     background: #4D5AE5 ;
+    transform: translateY(100%) ;
+    transition: transform 500ms ease-in;
+}
+
+.item:hover .overley {
+    transform: translateY(0)
 }
 /* footer */
 .info {
@@ -457,10 +461,6 @@ color: #404BBF;
         margin-bottom: 16px;
 }
         
-.container 
-{
-    display: flex;
-}
 
 .footer-logo .accent {
     color: #F4F4FD;
@@ -470,11 +470,11 @@ color: #404BBF;
 .footer {
     background:  #2E2F42;
     padding: 100px 0;
-    display: flex;
+    
 }
 
-.footer-icons {
-  
+.container-footer {
+    display: flex;
 }
 
 
@@ -485,9 +485,12 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFF;
-    padding-left: 120px;
+    
 }
 
+.description-container {
+    margin-right: 120px;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -495,7 +498,6 @@ color: #404BBF;
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);

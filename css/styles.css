@@ -105,7 +105,7 @@ color: #2e2f42;
     text-decoration: none;
     letter-spacing: 0.02em;
     position: relative;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link last-child {
@@ -368,7 +368,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 40px;
         gap: 24px;
        
-        transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials {
     display: flex;
@@ -376,7 +376,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     align-items: center;
     margin-top: 8px;
-    gap: 16px;
+    gap: 24px;
 }
 
 .socials-link {
@@ -388,6 +388,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
     background-color: #4D5AE5;
     color: #F4F4FD;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-links:hover,
 .socials-links:focus {
@@ -411,6 +412,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
     background-color: #4D5AE5;
     color: #F4F4FD;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link {
     color: currentColor;
